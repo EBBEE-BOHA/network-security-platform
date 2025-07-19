@@ -1,0 +1,110 @@
+# venv
+# .env
+# data/app.db
+# pages/__pycache__
+# utils/__pycache__
+
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+virtualenv/
+venv/
+env/
+ENV/
+.venv/
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*.bak
+*.tmp
+*.log
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+
+# Streamlit specific
+.streamlit/
+
+# Database files
+data/app.db
+data/app.db-journal
+
+# Environment variables
+.env
+.flaskenv
+
+# Test and temporary files
+*.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# Jupyter Notebook files
+.ipynb_checkpoints/
+
+# Compiled files
+*.o
+*.lo
+*.la
+*.al
+*.rej
+*.bak
+*~
+#*#
+.nfs*
+
+# Logs
+*.log
+logs/
+
+# Distribution / packaging
+.Python
+__pycache__/
+build/
+dist/
+*.egg-info/
+
+# Miscellaneous
+*.sqlite3
+*.db
+*.db-journal
+Explanation of Additions:
+Python Specific (*.py[cod], build/, dist/, etc.): These are common Python-generated files and directories that don't belong in version control.
+Virt
